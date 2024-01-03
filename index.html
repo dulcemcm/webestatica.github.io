@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <!--Configuración de los caracteres utillizados en el idioma -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+    <frameset rows="15%, 75%">
+        <frame src="encabezado.html" name="encabezado" noresize="noresize" frameborder="0" scrolling="no">
+        <frameset cols="15%,75%"">
+            <frame src="menu.html" name="menu" noresize="noresize" frameborder="0" scrolling="no">
+            <frame src="principal.html" name="principal" noresize="noresize" frameborder="0">
+        </frameset>
+    </frameset>
+    <noframe>
+        <body>¡Tu navegador no soporta frames!</body>
+    </noframe>
+</html>
